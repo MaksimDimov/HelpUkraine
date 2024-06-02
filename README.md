@@ -23,6 +23,8 @@ The project is hosted on GitHub Pages for easy access and sharing. You can view 
 
 Font Family
 The project includes a custom font family added to the index.html file to enhance the visual appeal of the web page.
+![Снимок экрана 2024-06-02 230221](https://github.com/MaksimDimov/HelpUkraine/assets/144286311/56d82283-57e4-4d0d-b937-cb97b08de673)
+![Снимок экрана 2024-06-02 230621](https://github.com/MaksimDimov/HelpUkraine/assets/144286311/5aac8101-170b-4733-a216-37baa92ba362)
 
 Development
 To set up the project locally, follow these steps:
