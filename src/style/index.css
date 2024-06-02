@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #ebe9e9;
+  }
+
+  body {
+    margin: 0;
+  }
+  
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    box-sizing: border-box;
+  }
+
+  /* Header styles */
+
+  header {
+    background-color: RGB(0, 87, 184);
+    color: rgb(40, 39, 39);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 70px;
+  }
+  
+  .header-div {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    padding: 0 20px; 
+  }
+  
+  .header-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .header-option {
+    color: rgb(40, 39, 39);
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .header-option:hover {
+    text-decoration: none; 
+  }
+
+  /* Banner styles */
+
+.banner-back {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1280px-Flag_of_Ukraine.svg.png') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ebe9e9;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+
+.container-text {
+  margin-bottom: 20px;
+}
+
+.banner-text {
+  font-size: 40px;
+  margin: 0 20px;
+  color: rgb(17, 16, 16);
+}
+
+.banner-text + .banner-text {
+  margin-bottom: 50px;
+}
+
+/* Button styles */
+
+.main-button {
+  background-color: RGB(0, 87, 184);
+  color: rgb(17, 16, 16);
+  border: 2px solid RGB(0, 87, 184);
+  border-radius: 7px;
+  padding: 1rem;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 22px;
+}
+
+.main-button:hover {
+  background-color: RGB(255, 215, 0);
+  color: rgb(17, 16, 16);
+}
+
+.text{
+  color: rgb(40, 39, 39);
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: rgb(17, 16, 16);
+  border: 1px solid RGB(0, 87, 184);
+  padding: 1rem;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 22px;
+  border-radius: 7px;
+}
+
+.secondary-button:hover {
+  background-color: RGB(0, 87, 184);
+  color: rgb(17, 16, 16);
+}
+
+/* GPT helped me to plase description of photos insode the field that is plased inside the pfoto */
+
+/* Gallery styles */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  color: rgb(40, 39, 39);
+  margin: 0 auto; /* Center the gallery horizontally */
+}
+
+.photo {
+  position: relative;
+  border: 2px solid #ebe9e9;
+  border-radius: 7px;
+  width: 100%; /* Ensure each image takes up full width of its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.photo:hover {
+  border: 2px solid RGB(0, 87, 184);
+}
+
+.photo img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 5px; 
+}
+
+.photo-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  background-color: RGB(0, 87, 184); 
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; 
+  color: rgb(17, 16, 16); 
+}
+
+.description {
+  margin: 0; 
+  font-size: 16px;
+  font-style: italic;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+}
+  
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
