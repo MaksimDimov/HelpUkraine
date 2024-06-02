@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+Components Web Page
+Overview
+This project is a basic web page built using React components. It includes several components such as Header, Banner, Button, Gallery, and Footer, each serving a specific purpose in the web page layout.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Structure
+The project structure follows a standard React setup with the following folders and files:
 
-## Available Scripts
+src/components: Contains individual React components for Header, Banner, Button, Gallery, and Footer.
+src/style: Contains CSS files for styling the components.
+public: Contains the reset CSS file and other static assets.
+index.html: Includes the HTML structure of the web page, with references to the necessary CSS and JavaScript files.
+Components
+Header: Displays the title of the web page along with the main navigation links.
+Banner: Shows a prominent message with two buttons, one for primary action and the other for secondary action. The button text and style are set via props.
+Button: Represents a clickable button with customizable text and style.
+Gallery: Displays a row of four images, each with an associated description. The images are populated dynamically using an array of URLs passed as props.
+Footer: Contains information about the project author and relevant links to external resources.
+Styling
+The styling of components is done using CSS, with separate stylesheets for each component. The Banner component includes styles for primary and secondary buttons, distinguishing them based on background color and text style.
 
-In the project directory, you can run:
+Hosting
+The project is hosted on GitHub Pages for easy access and sharing. You can view the live demo here.
 
-### `npm start`
+Font Family
+The project includes a custom font family added to the index.html file to enhance the visual appeal of the web page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Development
+To set up the project locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone the repository from GitHub.
+Install dependencies using npm install.
+Run the development server with npm start.
+Make changes as needed and commit them to your repository.
+Push changes to GitHub to deploy them to GitHub Pages.
